@@ -79,7 +79,6 @@ buttons[1].addEventListener('change', () => {
     pair1.style.visibility="hidden";
     pair3.style.display ='none';
     // pair3.style.visibility="hidden";
-
     Item[0].style.height='75px';
     Item[2].style.height='75px';
 
@@ -89,7 +88,7 @@ buttons[1].addEventListener('change', () => {
         buttons.checked = false;
         count=0
     })    
-})
+});
 buttons[2].addEventListener('change', () => {
     updateChartTotal2()
     pair3.style.display='flex';
@@ -115,4 +114,4 @@ buttons[2].addEventListener('change', () => {
     })
 
 
-})
+});
