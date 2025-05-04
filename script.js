@@ -56,7 +56,8 @@ buttons[0].addEventListener('change', () => {
     Item[2].style.height='75px';
     Item[1].style.height='75px';
     pair2.style.visibility="hidden";
-    pair3.style.visibility="hidden";
+    pair3.style.display='none';
+;
 });
 
 buttons[1].addEventListener('change', () => {
@@ -70,13 +71,13 @@ buttons[1].addEventListener('change', () => {
     Item[2].style.backgroundColor='#fff';
     Item[1].style.height='175px';
     pair1.style.visibility="hidden";
-    pair3.style.visibility="hidden";
+    pair3.style.display='none';
     Item[0].style.height='75px';
     Item[2].style.height='75px';
 })
 buttons[2].addEventListener('change', () => {
     updateChartTotal2()
-    pair3.style.visibility ='visible';
+    pair3.style.display ='flex';
     Item[2].style.border='2px solid #FF6B82';
     Item[1].style.border=' 1px solid #9f9f9f';
     Item[0].style.border=' 1px solid #9f9f9f';
