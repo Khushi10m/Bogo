@@ -58,12 +58,12 @@ buttons[0].addEventListener('change', () => {
     pair2.style.visibility="hidden";
         // pair3.style.visibility="hidden";
     pair3.style.display="none";
-    //    CartButton.addEventListener('click', () => {
-    //     count += 1;
-    //     CartButton.innerText = `${count} Items Added To Cart`;
-    //     buttons.checked = false;
-    //     count=0
-    // })
+       CartButton.addEventListener('click', () => {
+        count += 1;
+        CartButton.innerText = `${count} Items Added To Cart`;
+        buttons.checked = false;
+        count=0
+    })
 });
 
 buttons[1].addEventListener('change', () => {
@@ -83,12 +83,12 @@ buttons[1].addEventListener('change', () => {
     Item[0].style.height='75px';
     Item[2].style.height='75px';
 
-   // CartButton.addEventListener('click', () => {
-   //      count += 1;
-   //      CartButton.innerText = `${count} Items Added To Cart`;
-   //      buttons.checked = false;
-   //      count=0
-   //  })    
+   CartButton.addEventListener('click', () => {
+        count += 1;
+        CartButton.innerText = `${count} Items Added To Cart`;
+        buttons.checked = false;
+        count=0
+    })    
 })
 buttons[2].addEventListener('change', () => {
     updateChartTotal2()
@@ -107,12 +107,12 @@ buttons[2].addEventListener('change', () => {
     Item[1].style.height='75px';
     Item[0].style.height='75px';
 
-    // CartButton.addEventListener('click', () => {
-    //     count += 1;
-    //     CartButton.innerText = `${count} Items Added To Cart`;
-    //     buttons.checked = false;
-    //     count=0
-    // })
+    CartButton.addEventListener('click', () => {
+        count += 1;
+        CartButton.innerText = `${count} Items Added To Cart`;
+        buttons.checked = false;
+        count=0
+    })
 
 
 })
