@@ -201,9 +201,10 @@ label {
     align-items: center;
     justify-content: left;
     margin-left: 40px;
-    visibility: hidden;
+/*     visibility: hidden;
+ */
+    display:none;
 }
-
 select {
     width: 72px;
     height: 25px;
