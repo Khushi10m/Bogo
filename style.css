@@ -201,8 +201,7 @@ label {
     align-items: center;
     justify-content: left;
     margin-left: 40px;
-    visibility: hidden;
-
+display:none;
 }
 
 select {
